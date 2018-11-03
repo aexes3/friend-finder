@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey</title>
+<!-- Jquery CDN  -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<style type="text/css">
+body {
+  animation: 10000ms ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {background-color: teal;}
+  20% {background-color: gold;}
+  40% {background-color: indianred;}
+  60% {background-color: violet;}
+  80% {background-color: green;}
+  100% {background-color: teal;}
+}
+</style>
+<body>
+
+<!-- <br><br><br><br> -->
+<!-- Questions -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-2"></div>
+			<div class="col-md-10">
+				<form name="myForm">
+					<div class="input-group">
+	  					<div>
+							<h3>Name</h3>
+		  					<input id="name" type="text" class="form-control" name="name">
+	  					</div>
+	  					<div>
+							<h3>Image</h3>
+		  						<input id="image" type="text" class="form-control" name="img">
+	  						</div>
+	  					<input class="submit" type="submit" name="Submit">
+					</div>
+				</form>
+
+				<!-- Question 1	 -->
+				<h1>How do you spend your Mondays?</h1>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+												data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select an Option
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu q1">
+				    <li value="1"><a href="#">Planning The Whole Week</a></li>
+				    <li value="2"><a href="#">Hoping You Can Last The Week</a></li>
+				    <li value="3"><a href="#">Thinking About All Your Mistakes</a></li>
+				    <li value="4"><a href="#">Complaining That Nothing's Right</a></li>
+				  </ul>
+				</div> <!-- End of question 1 -->
+				
+				<br><br><br>
+
+				<!-- Question 2 -->
+				<h1>What Do you Think About Gardens?</h1>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+												data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select an Option
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q2">
+				    <li value="1"><a href="#">I Have Many</a></li>
+				    <li value="2"><a href="#">Everyone Else Has Them</a></li>
+				    <li value="3"><a href="#">Vegetable Garden Only</a></li>
+				    <li value="4"><a href="#">Who's Got That Kind Of Time?</a></li>
+				  </ul>
+				</div> <!-- End of question2 -->				
+
+				<br><br><br>
+
+				<!-- Question 3 -->
+				<h1>Which animal best describes you?</h1>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select an Option
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q3">
+				    <li value="1"><a href="#">Pig</a></li>
+				    <li value="2"><a href="#">Horse</a></li>
+				    <li value="3"><a href="#">Cow</a></li>
+				    <li value="4"><a href="#">Bird</a></li>
+				  </ul>
+				</div> <!-- End of question3 -->
+
+					<br><br><br>
+
+				<!-- Question 4 -->
+				<h1>Do you Remember Your Dreams?</h1>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+												data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select an Option
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q4">
+				    <li value="1"><a href="#">I've Heard Of Those</a></li>
+				    <li value="2"><a href="#">I'm Still Dreaming</a></li>
+				    <li value="3"><a href="#">Too Many to Keep track of</a></li>
+				    <li value="4"><a href="#">Nightmares Only</a></li>
+				  </ul>
+				</div> <!-- End of question4 -->
+
+					<br><br><br>
+
+				<!-- Question 5 -->
+				<h1>Have You Ever Won A Trophy?</h1>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+												data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select an Option
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q5">
+				    <li value="1"><a href="#">All Of Them</a></li>
+				    <li value="2"><a href="#">If No One Else Is Better Than Me</a></li>
+				    <li value="3"><a href="#">Everyone Should Get them</a></li>
+				    <li value="4"><a href="#">Who Hasn't?</a></li>
+				  </ul>
+				</div> <!-- End of question5 -->
+
+				<br><br><br>
+
+				<!-- Question 6 -->
+				<h1>What What Are your Friends Like?</h1>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+												data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select an Option
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q6">
+				    <li value="1"><a href="#">Leaders</a></li>
+				    <li value="2"><a href="#">Followers</a></li>
+				    <li value="3"><a href="#">Childish</a></li>
+				    <li value="4"><a href="#">Tense</a></li>
+				  </ul>
+				</div> <!-- End of question6 -->
+
+				<br><br><br>
+
+				<!-- Question 7 -->
+				<h1>What Best Describes Your Work?</h1>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+												data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select an Option
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q7">
+				    <li value="1"><a href="#">Manager</a></li>
+				    <li value="2"><a href="#">Construction/Retail</a></li>
+				    <li value="3"><a href="#">Social Worker/Services</a></li>
+				    <li value="4"><a href="#">HR/Policies</a></li>
+				  </ul>
+				</div> <!-- End of question7 -->
+
+					<br><br><br>
+
+				<!-- Question 8 -->
+				<h1>What Do You Do When You're Board?</h1>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+												data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select an Option
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q8">
+				    <li value="1"><a href="#">Plan A Trip</a></li>
+				    <li value="2"><a href="#">Watch A Movie</a></li>
+				    <li value="3"><a href="#">Try <i>Anything</i></a></li>
+				    <li value="4"><a href="#"> Talk On The Phone</a></li>
+				  </ul>
+				</div> <!-- End of question8 -->
+
+				<br><br><br>
+
+				<!-- Question 9 -->
+				<h1>What Type Of Music Best Describes You?</h1>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select an Option
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q9">
+				    <li value="1"><a href="#">Classic/Instumental</a></li>
+				    <li value="2"><a href="#">Top 100s</a></li>
+				    <li value="3"><a href="#">Folk/Dance</a></li>
+				    <li value="4"><a href="#">Rap/Rock</a></li>
+				  </ul>
+				</div> <!-- End of question9 -->
+
+				<br><br><br>
+
+				<!-- Question 10 -->
+				<h1>What Type Of Bed Do You Prefer?</h1>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Select an Option
+				    <span class="caret"></span>
+				  </button>
+				  <ul  class="dropdown-menu q10">
+				    <li value="1"><a href="#">King Size</a></li>
+				    <li value="2"><a href="#">Air-Matress</a></li>
+				    <li value="3"><a href="#">Water Bed</a></li>
+				    <li value="4"><a href="#">Death Bed</a></li>
+				  </ul>
+				</div> <!-- End of question10 -->
+		</div>
+	</div>
+	<input class="submit" type="submit" name="Submit">
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        	<span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!-- End of Modal -->
+
+</div><!-- Capturing users chooice -->
+
+<script type="text/javascript">
+$(document).ready(function() {
+		let 
+		q1 = 0,
+		q2 = 0,
+		q3 = 0,
+		q4 = 0,
+		q5 = 0,
+		q6 = 0, 
+		q7 = 0,
+		q8 = 0,
+		q9 = 0,
+		q10 = 0;
+		
+		var userScore =[];
+		//Replaces the default "Select option with users choice" 
+		$(".dropdown-menu li a").on('click', function(){
+		  $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+		});
+		// gets question input value
+		 $('.q1 li').on('click', function() {
+		 	q1 = $(this).val();
+		 });
+		 $('.q2 li').on('click', function() {
+		 	q2 = $(this).val();
+		 });
+		 $('.q2 li').on('click', function() {
+		 	q3 = $(this).val();
+		 });
+		 $('.q4 li').on('click', function() {
+		 	q4 = $(this).val();
+		 }); 
+		 $('.q4 li').on('click', function() {
+		 	q5 = $(this).val();
+		 }); 
+		 $('.q5 li').on('click', function() {
+		 	q6 = $(this).val();
+		 }); 
+		 $('.q6 li').on('click', function() {
+		 	q7 = $(this).val();
+		 }); 
+		 $('.q7 li').on('click', function() {
+		 	q8 = $(this).val();
+		 }); 
+		 $('.q8 li').on('click', function() {
+		 	q9 = $(this).val();
+		 });
+		 $('.q9 li').on('click', function() {
+		 	q10 = $(this).val();
+		 }); 
+		 
+		 // When Submit button is clicked ......
+			$('.submit').on('click', function(event) {
+				event.preventDefault(); 
+				// Validation
+				 let userScore = [q1, q2 ,q3 ,q4, q5 ,q6, q7, q8 ,q9, q10];
+					const isName = document.forms["myForm"]["name"].value;
+				    const isImg = document.forms["myForm"]["img"].value;
+				    //Checks if name and image input are empty and if all questions are filled out
+				    if (isName == "" || isImg == "") {
+				        alert("All fields must be filled out");
+				    }
+				    else {
+				    	// User input information
+						  let personData = {
+						    "name": $('#name').val().trim(),
+						    "photo":$('#image').val().trim(),
+						    "scores":[q1, q2 ,q3 ,q4, q5 ,q6, 
+						    		  q7, q8 ,q9, q10]
+						  }
+						// Posts users name, image & score
+	    				$.post('/api/friend', personData, function(data) {
+					 		//Clears out name and image input 
+					 		$('#name').val("");
+					 		$('#image').val("");
+						});
+						// Holds users score
+						// Compares Scores
+						 scoreCompare(userScore); 
+				    }
+			}); 
+		function scoreCompare(userScore) {
+			const currentURL = window.location.origin;
+			let scoreArr = [];
+			let sum = 0; 
+			$.ajax(
+			{
+				url: currentURL + '/api/friend',
+				method: 'GET'
+			})
+			.done(function(data) {
+
+			});
+		}
+	
+		
+}); 
+</script>
+</body>
+</html>
