@@ -1,4 +1,4 @@
 # friend-finder
 
-![homepage](https://user-images.githubusercontent.com/41274613/47947447-b084b200-deea-11e8-8671-3eb6e27a21d1.PNG)
-![surveypage](https://user-images.githubusercontent.com/41274613/47947448-b24e7580-deea-11e8-8923-4213d6ea0132.PNG)
+![homepage](https://user-images.githubusercontent.com/41274613/47947470-0e18fe80-deeb-11e8-9bfb-bee062e637bd.PNG)
+![surveypage](https://user-images.githubusercontent.com/41274613/47947471-0fe2c200-deeb-11e8-9026-6dee253aac29.PNG)
