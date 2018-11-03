@@ -1,71 +1,55 @@
 var peopleArr = [
     {
-      "name":"Steve",
-      "photo":"https://calculatedbravery.files.wordpress.com/2014/01/nerd.jpg",
+      "name":"Comfort Sleeper",
+      "photo":"https://www.pexels.com/photo/white-and-grey-quilt-set-1457845/",
       "scores":[
           1,
-          4,
-          1,
-          2,
           1,
           1,
-          2,
           1,
-          3,
+          1,
+          1,
+          1,
+          1,
+          1,
           1
         ]
     },
     {
-      "name":"Naplieon",
-      "photo":"http://images.amcnetworks.com/ifc.com/wp-content/uploads/2014/02/nerd-dance.jpg",
+      "name":"Mobile Sleeper",
+      "photo":"https://www.pexels.com/photo/adult-book-boring-face-267684/",
       "scores":[
           2,
-          3,
-          4,
-          4,
-          4,
           2,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
           2
         ]
     },
     {
-      "name":"Larry",
-      "photo":"https://image.shutterstock.com/z/stock-photo-nerd-silly-retro-man-teacher-with-braces-funny-expression-winner-victory-finger-gesture-320180192.jpg",
+      "name":"Experimental Sleeper",
+      "photo":"/c700x420.jpg",
       "scores":[
-          2,
-          2,
-          2,
-          1,
-          1,
-          1,
-          2,
-          2,
-          2,
-          1
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
         ]
     },
       {
-      "name":"Sarah",
-      "photo":"https://thumb7.shutterstock.com/display_pic_with_logo/2444651/417486019/stock-photo-nerd-woman-with-big-diopters-dusty-glasses-lush-green-trees-background-417486019.jpg",
-      "scores":[
-          1,
-          1,
-          2,
-          2,
-          2,
-          2,
-          1,
-          1,
-          1,
-          1
-        ]
-    },
-      {
-      "name":"Lindsey",
-      "photo":"http://www.books4you.addr.com/nerd_glasses_dork_geek.jpg",
+      "name":"Stiff Sleeper",
+      "photo":"https://pixabay.com/en/graveyard-military-cemetery-war-534616/",
       "scores":[
           4,
           4,
@@ -80,19 +64,35 @@ var peopleArr = [
         ]
     },
       {
-      "name":"Lissa",
-      "photo":"https://thumb1.shutterstock.com/display_pic_with_logo/482764/610894760/stock-photo-studio-portrait-of-funny-happy-young-business-woman-in-big-nerd-eyeglasses-on-gray-background-610894760.jpg",
+      "name":"Luxurious Sleeper",
+      "photo":"https://goo.gl/images/kPw2FK",
+      "scores":[
+          1,
+          4,
+          1,
+          4,
+          1,
+          4,
+          1,
+          4,
+          1,
+          4
+        ]
+    },
+    {
+      "name":"Go-With-The-Flow Sleeper",
+      "photo":"https://goo.gl/images/RLv7Ci",
       "scores":[
           2,
+          3,
           2,
+          3,
           2,
+          3,
           2,
+          3,
           2,
-          2,
-          2,
-          2,
-          2,
-          2
+          3
         ]
     }
   ]
